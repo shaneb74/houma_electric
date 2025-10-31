@@ -41,12 +41,12 @@
     @media (max-width: 720px) {
       .nav { flex-direction: column; align-items: flex-start; gap: 10px; }
       .actions a {
-  flex: 1;
+  flex: 1 1 auto;
   justify-content: center;
-  padding: 8px 8px;      /* smaller padding */
-  font-size: 14px;        /* smaller text */
-  border-radius: 8px;     /* tighter corners */
-  line-height: 1.2;
+  padding: 8px 6px;     /* tighter sides */
+  font-size: 13.5px;    /* slightly smaller font */
+  letter-spacing: 0.1px;
+  white-space: nowrap;  /* prevents wrapping */
 }
 .btn { padding: 10px 14px; font-size: 15px; } /* overall base shrink */
       .hero .container { padding-top: 46px; padding-bottom: 46px; }
