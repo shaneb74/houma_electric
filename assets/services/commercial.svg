@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Commercial building">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <g fill="none" stroke="#1e293b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    
+  <rect x="120" y="250" width="320" height="420" rx="12"/><rect x="520" y="200" width="300" height="470" rx="12"/>
+  <rect x="860" y="300" width="220" height="370" rx="12"/>
+  <g stroke="#475569"><line x1="160" y1="300" x2="400" y2="300"/><line x1="160" y1="360" x2="400" y2="360"/>
+  <line x1="560" y1="260" x2="800" y2="260"/><line x1="560" y1="320" x2="800" y2="320"/></g>
+
+  </g>
+  <text x="50" y="850" fill="#0f172a" font-family="system-ui, -apple-system, Segoe UI, Roboto" font-size="44">Commercial building</text>
+</svg>

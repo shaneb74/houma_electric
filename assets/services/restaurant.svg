@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Restaurant equipment">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <g fill="none" stroke="#1e293b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    
+  <rect x="150" y="280" width="300" height="340" rx="12"/>
+  <rect x="530" y="260" width="200" height="360" rx="12"/><rect x="770" y="300" width="260" height="320" rx="12"/>
+  <line x1="180" y1="350" x2="420" y2="350"/><line x1="180" y1="410" x2="420" y2="410"/>
+  <line x1="560" y1="320" x2="700" y2="320"/><line x1="560" y1="380" x2="700" y2="380"/>
+
+  </g>
+  <text x="50" y="850" fill="#0f172a" font-family="system-ui, -apple-system, Segoe UI, Roboto" font-size="44">Restaurant equipment</text>
+</svg>
