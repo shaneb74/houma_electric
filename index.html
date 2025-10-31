@@ -9,7 +9,7 @@
   <style>
     :root { --bg:#f8fafc; --card:#ffffff; --muted:#475569; --text:#0f172a; --brand:#2563eb; --brand-600:#1d4ed8; --radius:14px; --shadow:0 6px 20px rgba(2,6,23,.08); --max:1100px; }
     *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
-    img{max-width:100%;height:auto;display:block;border-radius:12px}
+    img{max-width:100%;display:block;border-radius:12px;object-fit:cover;aspect-ratio:4/3}
     a{color:var(--brand)} a:hover{text-decoration:underline}
     .container{max-width:var(--max);margin-inline:auto;padding:clamp(16px,3vw,28px)}
     header{background:#fff;border-bottom:1px solid #e2e8f0;position:sticky;top:0;z-index:50}
@@ -24,30 +24,11 @@
     .hero p{color:#eef2f7;max-width:60ch;margin:0 0 18px}
     .badge{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.95);color:#0f172a;border:1px solid #e2e8f0;padding:6px 10px;border-radius:999px;font-size:14px;margin-right:8px;margin-top:8px}
     .section{padding:32px 0} .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .card{background:var(--card);border:1px solid #e2e8f0;border-radius:12px;box-shadow:var(--shadow);padding:16px}
+    .card{background:var(--card);border:1px solid #e2e8f0;border-radius:12px;box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;gap:12px}
     .kicker{color:#475569;text-transform:uppercase;letter-spacing:.12em;font-size:12px}
-    .yelp-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;border:1px solid #e2e8f0;background:#fff;color:#0f172a;font-weight:600}
-    .yelp-badge .stars{color:#f59e0b;letter-spacing:1px}
-    form{display:grid;gap:12px} input,textarea{padding:12px 14px;border:1px solid #cbd5e1;border-radius:10px}
     footer{background:#1f2937;color:#f9fafb;margin-top:24px} footer small{color:#e5e7eb}
     @media(max-width:880px){.grid{grid-template-columns:1fr} .hero .container{padding-top:46px;padding-bottom:46px}}
   </style>
-
-  <!-- JSON-LD schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Electrician",
-    "name": "RASFE Electric, LLC",
-    "url": "https://houmaelectric.com",
-    "telephone": "+1-985-860-1849",
-    "address": { "@type":"PostalAddress", "addressLocality":"Houma", "addressRegion":"LA", "postalCode":"70360", "addressCountry":"US" },
-    "areaServed": ["Terrebonne Parish","Lafourche Parish"],
-    "openingHoursSpecification": [{ "@type":"OpeningHoursSpecification", "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens":"08:00", "closes":"17:00" }],
-    "paymentAccepted": ["Check","Cash"],
-    "sameAs": ["https://www.yelp.com/biz/rasfe-electric-houma"]
-  }
-  </script>
 </head>
 <body>
   <header>
@@ -81,50 +62,35 @@
       <h2>Electrical work done right</h2>
       <div class="grid">
         <div class="card">
-          <img src="https://images.pexels.com/photos/12805822/pexels-photo-12805822.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Commercial lighting and conduit detail">
+          <img src="https://images.pexels.com/photos/331692/pexels-photo-331692.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Commercial interior lighting in retail/offices">
           <h3>Commercial Electrical</h3>
           <p>Upgrades, troubleshooting, lighting retrofits, and maintenance for shops and offices.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/4440227/pexels-photo-4440227.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Industrial conduit and stainless pipes in plant environment">
+          <img src="https://images.pexels.com/photos/6294888/pexels-photo-6294888.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Industrial electrical cabinets and controls">
           <h3>Industrial Power & Control</h3>
           <p>Machinery hookups, conduit, wiring, and motor control for plants and fabrication facilities.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Residential breaker panel neatly labeled">
+          <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Residential home exterior with warm lighting">
           <h3>Residential Electrical</h3>
           <p>Panel upgrades, outlets, switches, and code-safe lighting for local homes.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/6375553/pexels-photo-6375553.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Restaurant kitchen stainless with electrical conduit">
+          <img src="https://images.pexels.com/photos/3769999/pexels-photo-3769999.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Restaurant kitchen equipment and appliances">
           <h3>Restaurant & Equipment Repair</h3>
           <p>Diagnostics and repair for kitchen and equipment power issues. Quick response for restaurants & cafés.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/12805822/pexels-photo-12805822.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Landscape and neighborhood lighting at night">
+          <img src="https://images.pexels.com/photos/1399572/pexels-photo-1399572.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Beautiful home with landscape lighting at night">
           <h3>Landscape Lighting Design & Installation</h3>
           <p>Accent and security lighting that holds up to South Louisiana weather.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/9679179/pexels-photo-9679179.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Electrician inspecting electrical panel">
+          <img src="https://images.pexels.com/photos/5251382/pexels-photo-5251382.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Electrician with no hair inspecting panel during consultation">
           <h3>Electrical Inspections & Consulting</h3>
           <p>Pre-purchase inspections, system evaluations, and code consulting for homeowners & builders.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="section container">
-      <div class="kicker">About</div>
-      <h2>The RASFE Difference</h2>
-      <p>RASFE Electric, LLC is a BBB-accredited, locally owned electrical contractor based in Houma, Louisiana. Led by <strong>Ron Endom</strong>, an electrician since 1996, we serve Terrebonne & Lafourche Parishes with honest, code-safe work for homes, restaurants, and businesses. All jobs are done right — no shortcuts, no mess, no surprises.</p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
-        <span class="badge">Licensed & Insured · #62844</span>
-        <span class="badge">Free Quotes</span>
-        <span class="badge">All Work Guaranteed</span>
-        <span class="badge">Payments: Check · Cash</span>
-        <a class="yelp-badge" href="https://www.yelp.com/biz/rasfe-electric-houma" target="_blank" rel="noopener" aria-label="Read RASFE Electric reviews on Yelp">
-          <span class="stars">★★★★★</span> <span>Reviews on Yelp</span>
-        </a>
       </div>
     </section>
 
@@ -133,13 +99,12 @@
       <h2>Request a free quote</h2>
       <p><strong>Phone:</strong> <a href="tel:+19858601849">(985) 860-1849</a> · <strong>Email:</strong> <a href="mailto:ronendom@rasfeelectric.com">ronendom@rasfeelectric.com</a><br>
       <strong>Hours:</strong> Mon–Fri · 8 AM–5 PM · <strong>Service Area:</strong> Terrebonne & Lafourche Parishes</p>
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
-        <p hidden><label>Don’t fill this out if you’re human: <input name="bot-field" /></label></p>
-        <label><span class="subtle">Name</span><input name="name" required aria-label="Name"></label>
-        <label><span class="subtle">Phone</span><input name="phone" required aria-label="Phone"></label>
-        <label><span class="subtle">Email</span><input type="email" name="email" aria-label="Email"></label>
-        <label><span class="subtle">How can we help?</span><textarea name="message" rows="5" aria-label="Message"></textarea></label>
+        <input name="name" required placeholder="Name">
+        <input name="phone" required placeholder="Phone">
+        <input type="email" name="email" placeholder="Email">
+        <textarea name="message" rows="5" placeholder="How can we help?"></textarea>
         <button class="btn" type="submit">Send Request</button>
       </form>
     </section>
@@ -147,9 +112,7 @@
 
   <footer role="contentinfo">
     <div class="container">
-      <small>© 2025 RASFE Electric, LLC · License #62844 · BBB Accredited (A+) · Insured · Houma, LA · Serving Terrebonne & Lafourche Parishes
-        · <a href="https://www.yelp.com/biz/rasfe-electric-houma" target="_blank" rel="noopener">See our Yelp reviews</a>
-      </small>
+      <small>© 2025 RASFE Electric, LLC · License #62844 · BBB Accredited (A+) · Insured · Houma, LA · Serving Terrebonne & Lafourche Parishes</small>
     </div>
   </footer>
 </body>
