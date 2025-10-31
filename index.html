@@ -5,15 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>RASFE Electric, LLC — Electrician in Houma, LA</title>
   <meta name="description" content="Professional electrician in Houma since 1996. Commercial, industrial, residential, restaurant equipment repair, landscape lighting, inspections & consulting. Licensed #62844. BBB Accredited (A+)." />
-  <meta name="geo.region" content="US-LA" />
-  <meta name="geo.placename" content="Houma" />
-  <meta name="geo.position" content="29.5958;-90.7195" />
-  <link rel="canonical" href="https://houmaelectric.com" />
   <link rel="icon" href="/assets/favicon.ico" />
   <style>
     :root { --bg:#f8fafc; --card:#ffffff; --muted:#475569; --text:#0f172a; --brand:#2563eb; --brand-600:#1d4ed8; --radius:14px; --shadow:0 6px 20px rgba(2,6,23,.08); --max:1100px; }
     *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
-    img{max-width:100%;display:block;border-radius:12px;object-fit:cover;aspect-ratio:4/3;loading:lazy}
+    img{max-width:100%;display:block;border-radius:12px;object-fit:cover;aspect-ratio:4/3}
     a{color:var(--brand)} a:hover{text-decoration:underline}
     .container{max-width:var(--max);margin-inline:auto;padding:clamp(16px,3vw,28px)}
     header{background:#fff;border-bottom:1px solid #e2e8f0;position:sticky;top:0;z-index:50}
@@ -22,7 +18,7 @@
     .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;border:1px solid var(--brand)}
     .btn:hover{background:var(--brand-600)}
     .btn.outline{background:#fff;color:var(--brand);border:1px solid var(--brand)}
-    .hero{background:linear-gradient(to bottom, rgba(2,6,23,.35), rgba(2,6,23,.35)), url('https://images.pexels.com/photos/1420031/pexels-photo-1420031.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=1');background-size:cover;background-position:center}
+    .hero{background:linear-gradient(to bottom, rgba(2,6,23,.35), rgba(2,6,23,.35)), url('./residential.jpg');background-size:cover;background-position:center}
     .hero .container{padding-top:64px;padding-bottom:64px}
     h1{font-size:clamp(28px,4.8vw,48px);line-height:1.15;margin:0 0 10px;color:#fff}
     .hero p{color:#eef2f7;max-width:60ch;margin:0 0 18px}
@@ -37,15 +33,10 @@
     input, textarea{padding:12px 14px;border:1px solid #cbd5e1;border-radius:10px;background:#fff;color:#0f172a}
     input:focus, textarea:focus{outline:3px solid #94a3b8;outline-offset:1px}
     .hint{color:#64748b;font-size:14px}
-    .testimonials{background:#f1f5f9;padding:40px 0;text-align:center}
-    .testimonial{max-width:600px;margin:0 auto 24px;background:#fff;padding:20px;border-radius:12px;box-shadow:var(--shadow)}
-    .testimonial img{width:60px;height:60px;border-radius:50%;margin-top:12px}
-    .map{margin-top:20px}
     footer{background:#1f2937;color:#f9fafb;margin-top:24px} footer small{color:#e5e7eb}
     @media(max-width:880px){.grid{grid-template-columns:1fr} .hero .container{padding-top:46px;padding-bottom:46px} .contact-card{grid-template-columns:1fr} }
   </style>
 
-  <!-- JSON-LD schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -57,15 +48,7 @@
     "areaServed": ["Terrebonne Parish","Lafourche Parish"],
     "openingHoursSpecification": [{ "@type":"OpeningHoursSpecification", "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens":"08:00", "closes":"17:00" }],
     "paymentAccepted": ["Check","Cash"],
-    "sameAs": ["https://www.yelp.com/biz/rasfe-electric-houma","https://www.bbb.org/us/la/houma/profile/electrical-contractors/rasfe-electric-llc-0985-90030372"],
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Teresa R." },
-        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-        "reviewBody": "RASFE Electric saved our bayou cabin after a storm surge knocked out power. They arrived fast, worked clean, and got us back online without flooding the yard. True South Louisiana pros!"
-      }
-    ]
+    "sameAs": ["https://www.yelp.com/biz/rasfe-electric-houma","https://www.bbb.org/us/la/houma/profile/electrical-contractors/rasfe-electric-llc-0985-90030372"]
   }
   </script>
 </head>
@@ -74,16 +57,16 @@
     <div class="container nav">
       <div>
         <div class="brand">RASFE Electric, LLC</div>
-        <div class="subtle">Call: <a href="tel:+19858601849" onclick="gtag('event','click',{'event_category':'Phone','event_label':'Header Call'});">(985) 860-1849</a> · Mon–Fri · 8 AM–5 PM</div>
+        <div class="subtle">Call: <a href="tel:+19858601849">(985) 860-1849</a> · Mon–Fri · 8 AM–5 PM</div>
       </div>
       <div class="actions">
-        <a class="btn" href="tel:+19858601849" onclick="gtag('event','click',{'event_category':'Phone','event_label':'Hero Call'});">Call (985) 860-1849</a>
+        <a class="btn" href="tel:+19858601849">Call (985) 860-1849</a>
         <a class="btn outline" href="#contact">Request a Quote</a>
       </div>
     </div>
   </header>
 
-  <section class="hero" role="img" aria-label="Houma, Louisiana industrial waterfront at dusk">
+  <section class="hero" role="img" aria-label="Residential home at dusk with warm lighting">
     <div class="container">
       <h1>Grounded. Reliable. Local. Since 1996.</h1>
       <p>Electrical expertise for commercial, industrial, and residential projects across Terrebonne & Lafourche Parishes. Licensed & insured (#62844). BBB Accredited (A+).</p>
@@ -91,7 +74,6 @@
         <span class="badge">30 Years Experience</span>
         <span class="badge">License #62844</span>
         <span class="badge">BBB Accredited (A+)</span>
-        <span class="badge">Free Estimates</span>
       </div>
     </div>
   </section>
@@ -102,46 +84,35 @@
       <h2>Electrical work done right</h2>
       <div class="grid">
         <div class="card">
-          <img src="https://images.pexels.com/photos/2190101/pexels-photo-2190101.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Houma commercial storefront with LED signage and lighting">
+          <img src="./resturant.jpg" alt="Commercial dining room interior lighting for a business">
           <h3>Commercial Electrical</h3>
           <p>Upgrades, troubleshooting, lighting retrofits, and maintenance for shops and offices.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/1420031/pexels-photo-1420031.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="South Louisiana seafood processing plant with industrial electrical controls">
+          <img src="./industrial.jpeg" alt="Industrial electrical cabinets and controls">
           <h3>Industrial Power & Control</h3>
           <p>Machinery hookups, conduit, wiring, and motor control for plants and fabrication facilities.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/2190101/pexels-photo-2190101.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Traditional Houma shotgun house with updated electrical panel">
+          <img src="./residential.jpg" alt="Residential home exterior with warm lighting">
           <h3>Residential Electrical</h3>
           <p>Panel upgrades, outlets, switches, and code-safe lighting for local homes.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/1367890/pexels-photo-1367890.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Busy Cajun restaurant kitchen with stainless steel equipment">
+          <img src="./kitchen.jpeg" alt="Commercial kitchen equipment and stainless surfaces">
           <h3>Restaurant & Equipment Repair</h3>
           <p>Diagnostics and repair for kitchen and equipment power issues. Quick response for restaurants & cafés.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/1399572/pexels-photo-1399572.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Houma home with landscape lighting along oak-lined driveway">
+          <img src="./accent.jpg" alt="Beautiful home with landscape lighting at night">
           <h3>Landscape Lighting Design & Installation</h3>
           <p>Accent and security lighting that holds up to South Louisiana weather.</p>
         </div>
         <div class="card">
-          <img src="https://images.pexels.com/photos/5251382/pexels-photo-5251382.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Electrician inspecting breaker panel in Houma home">
+          <img src="./inspection.jpg" alt="Electrician inspecting a breaker panel during consultation">
           <h3>Electrical Inspections & Consulting</h3>
           <p>Pre-purchase inspections, system evaluations, and code consulting for homeowners & builders.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials container">
-      <div class="kicker">Testimonials</div>
-      <h2>What Houma Says</h2>
-      <div class="testimonial">
-        <p><em>“RASFE Electric saved our bayou cabin after a storm surge knocked out power. They arrived fast, worked clean, and got us back online without flooding the yard. True South Louisiana pros!”</em></p>
-        <strong>— Teresa R., Houma, LA</strong>
-        <img src="https://i.pravatar.cc/80?u=teresar" alt="Teresa R.">
       </div>
     </section>
 
@@ -150,7 +121,7 @@
       <h2>Request a free quote</h2>
       <div class="contact-card">
         <div>
-          <p><strong>Phone:</strong> <a href="tel:+19858601849" onclick="gtag('event','click',{'event_category':'Phone','event_label':'Contact Call'});">(985) 860-1849</a><br>
+          <p><strong>Phone:</strong> <a href="tel:+19858601849">(985) 860-1849</a><br>
              <strong>Email:</strong> <a href="mailto:ronendom@rasfeelectric.com">ronendom@rasfeelectric.com</a><br>
              <strong>Hours:</strong> Mon–Fri · 8 AM–5 PM<br>
              <strong>Service Area:</strong> Terrebonne & Lafourche Parishes</p>
@@ -163,15 +134,6 @@
             </a>
           </div>
           <p class="hint">Free quotes · All work guaranteed · Payments: Check & Cash</p>
-
-          <!-- Google Map -->
-          <div class="map">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.678290123456!2d-90.71950068499999!3d29.595800082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620b1b5b5b5b5b5%3A0x1234567890abcdef!2sHouma%2C%20LA%2070360!5e0!3m2!1sen!2sus!4v1698000000000!5m2!1sen!2sus" 
-              width="100%" height="300" style="border:0;border-radius:12px" 
-              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
         </div>
         <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" aria-label="Contact form">
           <input type="hidden" name="form-name" value="contact" />
@@ -193,16 +155,5 @@
       </small>
     </div>
   </footer>
-
-  <!-- Google Analytics (optional – remove if not using) -->
-  <!--
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-  </script>
-  -->
 </body>
 </html>
